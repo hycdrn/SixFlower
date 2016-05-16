@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical"   
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:background="#F0FFFF"
+    >     
+       
+    <RelativeLayout  
+    android:layout_width="fill_parent" 
+    android:layout_height="40dp" 
+     android:background="#20B2AA"
+     >
+    <TextView 
+        android:id="@+id/title"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="帐号登录"
+        />
+    <Button
+        android:id="@+id/Button2"
+        android:layout_toRightOf="@id/title"
+        android:layout_alignTop="@id/title"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+         android:textSize="22px"
+         android:paddingLeft="10dp"
+        android:background="@android:color/transparent"
+        android:text="注册"
+           />
+    </RelativeLayout>
+    <EditText   
+        android:id="@+id/EditText1"   
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:inputType="none"
+        />
+    <EditText 
+        android:id="@+id/EditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />        
+    <Button   
+        android:id="@+id/Button1"   
+        android:layout_width="100dp" 
+        android:layout_height="40dp"  
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/shape" 
+        android:textSize="14sp"
+        android:text="登录" 
+        />        
+    
+</LinearLayout> 
